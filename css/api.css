@@ -1,0 +1,13 @@
+#games{
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
+
+}
+.card{
+    width: 18rem;
+}

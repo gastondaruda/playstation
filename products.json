@@ -1,0 +1,110 @@
+[
+    {
+      "id": "1",
+      "nombre": "god of war",
+      "price": 1500,
+      "genero": "acción",
+      "img": "imagenes/gow.png",
+      "cant": 1,
+      "consola": "PlayStation4"
+    },
+    {
+      "id": "2",
+      "nombre": "need for speed payback",
+      "price": 1200,
+      "genero": "autos",
+      "img": "imagenes/nfs.jpg",
+      "cant": 1,
+      "consola": "PlayStation4"
+    },
+    {
+      "id": "3",
+      "nombre": "outlast",
+      "price": 800,
+      "genero": "survival",
+      "img": "imagenes/Outlast.jpg",
+      "cant": 1,
+      "consola": "PlayStation4"
+    },
+    {
+      "id": "4",
+      "nombre": "resident evil4",
+      "price": 850,
+      "genero": "survival",
+      "img": "imagenes/re.jpg",
+      "cant": 1,
+      "consola": "PlayStation2"
+    },
+    {
+      "id": "5",
+      "nombre": "resident evil 3",
+      "price": 1500,
+      "genero": "survival",
+      "img": "imagenes/re3.jpg",
+      "cant": 1,
+      "consola": "PlayStation4"
+    },
+    {
+      "id": "6",
+      "nombre": "forza horizon4",
+      "price": 1850,
+      "genero": "autos",
+      "img": "imagenes/forza.jpg",
+      "cant": 1,
+      "consola": "PlayStation4"
+    },
+    {
+      "id": "7",
+      "nombre": "horizon zero dawn",
+      "price": 1650,
+      "genero": "ación",
+      "img": "imagenes/horizon.jpg",
+      "cant": 1,
+      "consola": "PlayStation4"
+    },
+    {
+      "id": "8",
+      "nombre": "uncharted 4",
+      "price": 1000,
+      "genero": "acción",
+      "img": "imagenes/uncharted.jpg",
+      "cant": 1,
+      "consola": "PlayStation4"
+    },
+    {
+      "id": "9",
+      "nombre": "metal gear solid V",
+      "price": 950,
+      "genero": "acción",
+      "img": "imagenes/mgs.jpg",
+      "cant": 1,
+      "consola": "PlayStation4"
+    },
+    {
+      "id": "10",
+      "nombre": "dragonball fighters Z",
+      "price": 750,
+      "genero": "acción",
+      "img": "imagenes/dbz.jpg",
+      "cant": 1,
+      "consola": "PlayStation4"
+    },
+    {
+      "id": "11",
+      "nombre": "fifa",
+      "price": 2100,
+      "genero": "deporte",
+      "img": "imagenes/fifa2022.jpg",
+      "cant": 1,
+      "consola": "PlayStation4"
+    },
+    {
+      "id": "12",
+      "nombre": "pes",
+      "price": 2000,
+      "genero": "deporte",
+      "img": "imagenes/pes2020.jpg",
+      "cant": 1,
+      "consola": "PlayStation4"
+    }
+  ]
