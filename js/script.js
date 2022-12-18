@@ -6,31 +6,34 @@ const inputSearch = document.querySelector("#inputSearch")
 const cartCantidad = document.querySelector("#cartCantidad")
 const empty = "../imagenes/empty-cart.png"
 const URLgames = "../products.json"
-const games = []
 let contenidoHTML = ""
 
 //---------------------------
 
-const cargarContenido  = async ()=> {
-    try {
-        const response = await fetch(URLgames)
-        const data = await response.json()
-        games = data
-            console.log(games)
-            //games.forEach(serv => contenidoHTML += productCard(serv))
-    } 
-    catch (error) {
-        contenidoHTML.innerHTML = `<p>Hubo un error</p>`
-    }
-    finally {
-        console.log(games)
-        //container.innerHTML = contenidoHTML
-    }
+const timeoutId = setTimeout(function(){
+    console.log("Hola Mundo");
+}, 2000)
+
+const spinner = () => {setTimeout(function(){
+    ;
+}, 2000)}
+
+
+const fetchGames = () => {
+    container.innerHTML = `<span>cargando...</span>`
+    fetch('../products.json')
+    .then((response) => response.json())
+    .then((data) => {
+        let games = data;
+        renderProductos(games)
+    })
 }
-cargarContenido()
+
+fetchGames()
 
 
 //---------------------------
+
 
 const noProd = () => {
     return `
@@ -58,7 +61,7 @@ const productCard = (param) => {
 const renderProductos = (array) => {
     container.innerHTML = array.map(prod => productCard(prod)).join("")
 }
-window.addEventListener("DOMContentLoaded", () => renderProductos(productos));
+//window.addEventListener("DOMContentLoaded", () => renderProductos(productos));
 
 
 const totalCantidad = () => {
