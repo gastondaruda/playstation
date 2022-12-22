@@ -349,6 +349,7 @@ button:hover{
 .divQuantity{
     position: relative;
 }
+/*
 #cartCantidad{
     background-color: tomato;
     border-radius: 50%;
@@ -362,3 +363,4 @@ button:hover{
     justify-content: center;
     align-items: center;
 }
+*/

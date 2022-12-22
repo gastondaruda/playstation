@@ -9,7 +9,7 @@ const URLgames = "../products.json"
 let contenidoHTML = ""
 
 //---------------------------
-
+/*
 const timeoutId = setTimeout(function(){
     console.log("Hola Mundo");
 }, 2000)
@@ -31,7 +31,7 @@ const fetchGames = () => {
 
 fetchGames()
 
-
+*/
 //---------------------------
 
 
@@ -61,7 +61,7 @@ const productCard = (param) => {
 const renderProductos = (array) => {
     container.innerHTML = array.map(prod => productCard(prod)).join("")
 }
-//window.addEventListener("DOMContentLoaded", () => renderProductos(productos));
+window.addEventListener("DOMContentLoaded", () => renderProductos(productos));
 
 
 const totalCantidad = () => {
